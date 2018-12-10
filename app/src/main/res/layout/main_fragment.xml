@@ -28,6 +28,7 @@
                     android:layout_height="wrap_content">
 
                 <EditText
+                        android:id="@+id/etSearch"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/ic_baseline_search_24px"
@@ -39,7 +40,8 @@
                         android:paddingBottom="8dp"
                         android:drawablePadding="16dp"
                         android:maxLines="1"
-                        android:inputType="text"/>
+                        android:inputType="text"
+                        android:imeOptions="actionSearch"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
     </LinearLayout>
