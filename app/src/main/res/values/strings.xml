@@ -2,4 +2,6 @@
     <string name="app_name">Github User Finder</string>
     <string name="hint_text">Search Github users</string>
     <string name="no_data_text">No data</string>
+    <string name="search">Enter keyword to search Github user</string>
+    <string name="loading">Loading</string>
 </resources>

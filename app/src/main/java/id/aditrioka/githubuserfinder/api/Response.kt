@@ -1,6 +1,7 @@
-package id.aditrioka.githubuserfinder
+package id.aditrioka.githubuserfinder.api
 
 import com.google.gson.annotations.SerializedName
+import id.aditrioka.githubuserfinder.model.User
 
 data class Response(
 
@@ -11,6 +12,6 @@ data class Response(
     val documentationUrl: String,
 
     @SerializedName("items")
-    val users: MutableList<User>
+    val users: List<User>
 
 )

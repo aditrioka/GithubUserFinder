@@ -25,3 +25,9 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    archComponentsVersion = '2.0.0'
+    roomVersion = '2.1.0-alpha01'
+    pagingVersion = '2.1.0-alpha01'
+}

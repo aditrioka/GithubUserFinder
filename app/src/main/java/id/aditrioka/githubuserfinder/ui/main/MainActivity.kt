@@ -1,7 +1,8 @@
-package id.aditrioka.githubuserfinder
+package id.aditrioka.githubuserfinder.ui.main
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import id.aditrioka.githubuserfinder.R
 import id.aditrioka.githubuserfinder.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
