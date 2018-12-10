@@ -84,9 +84,11 @@ class MainFragment : androidx.fragment.app.Fragment() {
 
     private fun showEmptyList(show: Boolean) {
         if (show) {
+            emptyTextView.text = getString(R.string.no_data_text)
             emptyTextView.visibility = View.VISIBLE
             recyclerView.visibility = View.GONE
         } else {
+            emptyTextView.text = getString(R.string.no_data_text)
             emptyTextView.visibility = View.GONE
             recyclerView.visibility = View.VISIBLE
         }
